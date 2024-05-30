@@ -16,6 +16,8 @@
 		2CFC93892C0927C70027531F /* TestSwiftUICellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFC93882C0927C70027531F /* TestSwiftUICellTests.swift */; };
 		2CFC93932C0927C70027531F /* TestSwiftUICellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFC93922C0927C70027531F /* TestSwiftUICellUITests.swift */; };
 		2CFC93952C0927C70027531F /* TestSwiftUICellUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFC93942C0927C70027531F /* TestSwiftUICellUITestsLaunchTests.swift */; };
+		2CFC93A22C0929390027531F /* HostingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFC93A12C0929390027531F /* HostingTableViewCell.swift */; };
+		2CFC93A42C092AFF0027531F /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFC93A32C092AFF0027531F /* CellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		2CFC938E2C0927C70027531F /* TestSwiftUICellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSwiftUICellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CFC93922C0927C70027531F /* TestSwiftUICellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSwiftUICellUITests.swift; sourceTree = "<group>"; };
 		2CFC93942C0927C70027531F /* TestSwiftUICellUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSwiftUICellUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2CFC93A12C0929390027531F /* HostingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingTableViewCell.swift; sourceTree = "<group>"; };
+		2CFC93A32C092AFF0027531F /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				2CFC937A2C0927C70027531F /* Assets.xcassets */,
 				2CFC937C2C0927C70027531F /* LaunchScreen.storyboard */,
 				2CFC937F2C0927C70027531F /* Info.plist */,
+				2CFC93A12C0929390027531F /* HostingTableViewCell.swift */,
+				2CFC93A32C092AFF0027531F /* CellView.swift */,
 			);
 			path = TestSwiftUICell;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CFC93A22C0929390027531F /* HostingTableViewCell.swift in Sources */,
+				2CFC93A42C092AFF0027531F /* CellView.swift in Sources */,
 				2CFC93762C0927C50027531F /* ViewController.swift in Sources */,
 				2CFC93722C0927C50027531F /* AppDelegate.swift in Sources */,
 				2CFC93742C0927C50027531F /* SceneDelegate.swift in Sources */,
